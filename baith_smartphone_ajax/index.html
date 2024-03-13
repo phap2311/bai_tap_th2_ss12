@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js.js">
+    </script>
+</head>
+<body>
+<form>
+    <div>
+        <label>Model</label>
+        <input type="model" name="model" id="model" >
+    </div>
+    <div>
+        <label>Price</label>
+        <input type="price" name="price" id="price">
+    </div>
+    <div>
+        <label>Producer</label>
+        <input type="producer" name="producer" id="producer" >
+    </div>
+    <div>
+        <input type="submit" value="create" onclick="createSmart()">
+    </div>
+</form>
+<h1>Danh sách điện thoại</h1>
+<table border="1px">
+    <tr>
+        <td>id</td>
+        <td>model</td>
+        <td>price</td>
+        <td>producer</td>
+        <td>Delete</td>
+    </tr>
+    <tbody id="list">
+
+    </tbody>
+</table>
+</body>
+</html>
